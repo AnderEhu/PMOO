@@ -1,0 +1,116 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U probar_nube_puntos%b	probar_nube_puntos.adb	640cb10c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W listas_puntosed%s	listas_puntosed.ads	listas_puntosed.ali
+W nube_puntos%s		nube_puntos.adb		nube_puntos.ali
+W puntos%s		puntos.adb		puntos.ali
+W rectas%s		rectas.adb		rectas.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-flteio.ads		20170111094543 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170111094543 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D listas.ads		20180518174110 124e4912 listas%s
+D listas_puntosed.ads	20180516181535 be80c42c listas_puntosed%s
+D mayor_que.adb		20180516095715 1c65b304 mayor_que%b
+D nube_puntos.ads	20180518204423 625229bb nube_puntos%s
+D probar_nube_puntos.adb  20180525093229 41fe94d2 probar_nube_puntos%b
+D puntos.ads		20180320160721 e2accfd3 puntos%s
+D rectas.ads		20180518184807 a0399c55 rectas%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-conca3.ads		20170111094543 0b705ca5 system.concat_3%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-imgint.ads		20170111094541 02dbe0c2 system.img_int%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 16|6r6 6r23 7r6 7r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 16|7w10 7r33
+X 7 a-textio.ads
+49K13*Text_IO 471e16 16|6w10 6r27
+166U14*New_Line 16|40s1 43s1 52s5 55s5 57s5 59s5 62s5 62s15 86s7 89s7 91s7
+. 94s7 94s17
+242U14*Put 16|41s1 54s5 56s5 58s5 60s5 82s3 82s49 88s7 90s7 92s7
+263U14*Put_Line 16|46s1 53s5 81s3 87s7
+X 8 a-tiflio.ads
+68U14*Put 16|58s48[3|20] 82s35[3|20] 90s50[3|20]
+X 13 listas_puntosed.ads
+5K9*listas_puntosED[12|4] 16|5w6
+X 15 nube_puntos.ads
+4K9*nube_puntos 38e16 16|2w6 4w6 12r6 29r1 30r1 31r1 32r1 33r1 34r1 35r1
+. 36r1 37r1 38r1 39r1 42r1 48r13 49r5 50r13 51r5 65r3 66r3 67r3 68r3 69r3
+. 70r3 71r3 72r3 73r3 74r3 75r3 79r3 84r15 85r7
+6R8*nubes_puntos 32e15 16|12r18
+8U13*crear_lista_vacia 16|29s13 65s15
+10U13*poner_punto 16|30s13 31s13 32s13 33s13 34s13 35s13 36s13 37s13 38s13
+. 39s13 66s15 67s15 68s15 69s15 70s15 71s15 72s15 73s15 74s15 75s15
+12U13*Calculo_AMC 16|42s13
+14V12*Obtener_Primero{17|3R9} 16|48s25 50s25 84s27
+16U13*borrar_primero 16|49s17 51s17 85s19
+20U13*Obtener_Sublista 16|79s15
+X 16 probar_nube_puntos.adb
+8U11*probar_nube_puntos 8b11 109l5 109t23
+10r3 p1{17|3R9} 19m20 30r27 66r29 82r92
+10r6 p2{17|3R9} 20m20 31r27 67r29
+10r9 p3{17|3R9} 21m20 32r27 68r29
+10r12 p4{17|3R9} 22m20 33r27 69r29
+10r15 p5{17|3R9} 23m20 34r27 70r29
+10r18 p6{17|3R9} 24m20 35r27 71r29
+10r21 p7{17|3R9} 25m20 36r27 72r29
+10r24 p8{17|3R9} 26m20 37r27 73r29
+10r27 p9{17|3R9} 27m20 38r27 74r29
+10r30 p10{17|3R9} 28m20 39r27 75r29
+10r34 p1_aux{17|3R9} 48m5 54r64 58r69 61r46 84m7 88r66 90r71 93r51
+10r41 p2_aux{17|3R9} 50m5 56r65 58r77 61r53
+10r48 ps{17|3R9} 77m22 79r34 90r79 93r48
+11i3 i{integer} 47r9 54r31 56r31 63m5 63r8 88r33
+11i5 j{integer} 83r11 95m7 95r10
+12r3 N{15|6R8} 29m31 29r31 30m25 30r25 31m25 31r25 32m25 32r25 33m25 33r25
+. 34m25 34r25 35m25 35r25 36m25 36r25 37m25 37r25 38m25 38r25 39m25 39r25
+. 42r25 48r41 49m32 49r32 50r41 51m32 51r32 65m33 65r33 66m27 66r27 67m27
+. 67r27 68m27 68r27 69m27 69r27 70m27 70r27 71m27 71r27 72m27 72r27 73m27
+. 73r27 74m27 74r27 75m27 75r27 79m32 79r32 84r43 85m34 85r34
+13f3 d{float} 78m3 79r37 82r39
+14i3 c{integer} 79r39 83r14
+X 17 puntos.ads
+2K9*Puntos 16|1w6 10r52 19r1 20r1 21r1 22r1 23r1 24r1 25r1 26r1 27r1 28r1
+. 54r42 56r43 58r52 77r3 82r70 88r44 90r54 17|25e11
+3R9*Punto 16|10r59 17|24e14
+5U14*Crear_Punto 16|19s8 20s8 21s8 22s8 23s8 24s8 25s8 26s8 27s8 28s8 77s10
+8U14*Escribir_Punto 16|54s49 56s50 82s77 88s51
+12V13*Distancia{float} 16|58s59 90s61
+X 18 rectas.ads
+3K9*Rectas 16|3w6 61r5 61r27 93r7 93r29 18|27e11
+9U14*Escribir_Recta 16|61s12 93s14
+13V13*Crear_Recta{4R9} 16|61s34 93s36
+

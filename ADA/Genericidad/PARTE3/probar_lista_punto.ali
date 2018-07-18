@@ -1,0 +1,103 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U probar_lista_punto%b	probar_lista_punto.adb	e6fc00f2 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W crear_sublistaed_10puntos%s  crear_sublistaed_10puntos.ads  crear_sublistaed_10puntos.ali
+W lista_puntos%s	lista_puntos.adb	lista_puntos.ali
+W listased%s		listased.ads		listased.ali
+W puntos%s		puntos.adb		puntos.ali
+W rectas%s		rectas.adb		rectas.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-flteio.ads		20170111094543 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170111094543 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D crear_sublistaed_10puntos.ads  20180510162443 648dd48f crear_sublistaed_10puntos%s
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D lista_puntos.ads	20180511110811 7a093f22 lista_puntos%s
+D listas.ads		20180510164640 862bef88 listas%s
+D listased.ads		20180510165451 eaf01758 listased%s
+D mayor_que.adb		20180510171615 afe41167 mayor_que%b
+D probar_lista_punto.adb  20180511111003 89fa1df5 probar_lista_punto%b
+D puntos.ads		20180320160721 e2accfd3 puntos%s
+D rectas.ads		20180320160655 a0399c55 rectas%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-conca3.ads		20170111094543 0b705ca5 system.concat_3%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r19 1r42 1r55
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 17|1w23 1r59
+X 7 a-textio.ads
+49K13*Text_IO 471e16 17|1w10 1r46
+166U14*New_Line 17|15s6 23s9 26s6 26s16 53s3 53s13
+242U14*Put 17|14s6 18s9 20s9 22s9 43s3
+263U14*Put_Line 17|13s6
+X 8 a-tiflio.ads
+68U14*Put 17|19s9[3|20] 21s9[3|20]
+X 10 crear_sublistaed_10puntos.ads
+3U12*crear_sublistaed_10puntos[14|39] 17|3w43
+X 13 lista_puntos.ads
+5K9*lista_puntos 28e17 17|3w30 32r3 33r3 34r3 35r3 36r3 37r3 38r3 39r3 40r3
+. 41r3 44r1 48r33 49r6 51r3 52r3
+7U17*crear_lista_vacia 17|44s14
+11V16*obtener_primero{18|3R9} 17|48s46
+13U17*borrar_primero 17|49s19
+17U17*poner_punto 17|32s16 33s16 34s16 35s16 36s16 37s16 38s16 39s16 40s16
+. 41s16
+19U17*escribir_lista_puntos 17|52s16
+20U17*copiar_lista_puntos 17|51s16
+X 14 listas.ads
+6P9*Lista 17|9r51[15|4] 29r41[15|4]
+12U17*Colocar 17|48s15[15|4]
+19U14*Obtener_Primero 17|17s18[15|4]
+32U14*Borrar_Primero 17|24s18[15|4]
+46V13*Es_Vacia{boolean} 17|16s25[15|4]
+X 15 listased.ads
+4K9*listased[14|4] 17|3w21 9r42 16r16 17r9 24r9 29r32 48r6
+X 17 probar_lista_punto.adb
+5U11*Probar_lista_punto 5b11 58l5 58t23
+9U13 Escribir_Contenido 9b13 9=32 9>58 27l7 27t25 46s1
+9p32 L{14|6P9[15|4]} 16r34 17r34 24m33
+9a58 Lista{string} 13r43
+10r6 N{18|3R9} 17m37 19r26 21r26
+29p3 t_puntos{14|6P9[15|4]} 46m20 46r20 48m23 48r23 51m36 51r36
+29p12 T_puntos_ordenados{14|6P9[15|4]}
+30r3 p{18|3R9}
+47i7 I{integer}
+X 18 puntos.ads
+2K9*Puntos 17|3w6 10r9 19r13 21r13 30r6 18|25e11
+3R9*Punto 17|10r16 30r13 18|24e14
+15V13*Get_X{float} 17|19s20
+18V13*Get_Y{float} 17|21s20
+X 19 rectas.ads
+3K9*Rectas 17|3w14 19|27e11
+

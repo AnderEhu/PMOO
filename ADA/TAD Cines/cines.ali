@@ -1,0 +1,110 @@
+V "GNAT Lib v7"
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U cines%b		cines.adb		3c57b601 NE OO PK KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W salas%s		salas.adb		salas.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U cines%s		cines.ads		61db1042 EE NE OO PK KU
+W salas%s		salas.adb		salas.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-inteio.ads		20170111094543 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170111094541 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D cines.ads		20180504123506 ce870790 cines%s
+D cines.adb		20180504150034 93aada33 cines%b
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D salas.ads		20180504144616 af5c17d2 salas%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-conca2.ads		20170111094541 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20170111094543 7e642b20 system.concat_4%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170120101836 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|2r6 3r5 4r6 5r5
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 11|4w10 5r9
+X 7 a-textio.ads
+49K13*Text_IO 471e16 11|2w10 3r9
+166U14*New_Line 11|53s9
+242U14*Put 11|52s9 52s54 87s9
+263U14*Put_Line 11|51s9 62s9 64s13 98s13
+X 8 a-tiinio.ads
+66U14*Put 11|52s36[3|18]
+X 10 cines.ads
+2K9*Cines 30E10 36l5 36e10 11|6b14 106l5 106t10
+4R8*cine 6r49 9r27 12r35 15r53 18r35 21r40 24r30 31c10 35e15 11|9r51 15r29
+. 24r37 37r55 58r37 73r42 91r32
+6U13*Crear_Cine 6>24 6<42 11|9b15 13l9 13t19
+6a24 Nom_cine{string} 11|9b26 12r24
+6r42 C{4R8} 11|9b44 12m9
+9V12*Nombre_Cine{string} 9>24 11|15b14 21l9 21t20
+9r24 C{4R8} 11|15b26 19r16
+12U13*anadir_sala 12=25 12>41 11|24b15 35l9 35t20
+12r25 c{4R8} 11|24b27 28r12 28r20 30m13 30r21 31m31 31r31 31r44
+12r41 s{14|3R9} 11|24b43 31r52
+15U13*Vender_Localidades_Contiguas 15=43 15>59 15>81 11|37b15 56l9 56t37
+15r43 c{4R8} 11|37b45 41r21 42r34 43r52 45m56 45r56
+15a59 nom_pelicula{string} 11|37b61 42r53
+15i81 N_Entradas{integer} 11|37b83 43r68 45r72 52r40
+18U13*Escribir_Cartelera 18>32 11|58b15 71l9 71t27
+18r32 C{4R8} 11|58b34 62r33 63r21 65r31 67r31
+21U13*Cambiar_pelicula 21=30 21>46 21>66 11|73b15 89l9 89t25
+21r30 C{4R8} 11|73b32 78r21 80r34 80r47 81m42 81r42 81r55
+21a46 iden_viejo{string} 11|73b48 80r58
+21a66 iden_nuevo{string} 11|73b68 81r63
+24U13*Mostrar_Salas 24>27 11|91b15 103l9 103t22
+24r27 C{4R8} 11|91b29 96r21 98r48 99r32
+30A10 T_salas(14|3R9)<integer> 32r23
+32a9*Sala_Lista{30A10} 11|28r22 31m33 42r36 43r54 45m58 65r33 67r33 80r36
+. 81m44 98r50 99r34
+33a9*Nombre_Cine{string} 11|12m11 19r18 62r35
+34i9*Cont{integer} 11|28r14 30m15 30r23 31r46 41r23 63r23 78r23 80r49 81r57
+. 96r23
+X 11 cines.adb
+41i13 i{integer} 42r47 43r65 45r69
+63i13 i{integer} 65r44 67r44
+78i13 i{integer}
+96i13 i{integer} 98r61 99r45
+X 14 salas.ads
+1K9*Salas 10|1w6 12r44 30r40 11|1w6 24r46 31r13 42r16 43r20 45r21 65r13 67r13
+. 80r16 81r17 98r30 99r13 14|59e10
+3R9*Sala 10|12r50 30r46 11|24r52 14|57e17
+13V13*Nombre_Sala{string} 11|65s19 98s36
+25V13*La_Pelicula{string} 11|42s22 67s19 80s22
+29U14*Modificar_Pelicula 11|81s23
+33U14*Vender_Localidades_Contiguas 11|45s27
+37U14*Mostrar_Sala 11|99s19
+41U14*Copiar_sala 11|31s19
+43V13*hay_localidades_contiguas{boolean} 11|43s26
+

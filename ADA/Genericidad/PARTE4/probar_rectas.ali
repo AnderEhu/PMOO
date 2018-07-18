@@ -1,0 +1,76 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U probar_rectas%b	probar_rectas.adb	d05af8d7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W puntos%s		puntos.adb		puntos.ali
+W rectas%s		rectas.adb		rectas.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-flteio.ads		20170111094543 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170111094543 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D probar_rectas.adb	20180320215339 4b281925 probar_rectas%b
+D puntos.ads		20180320160721 e2accfd3 puntos%s
+D rectas.ads		20180320160655 a0399c55 rectas%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r19 1r42 1r55
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 12|1w23 1r59
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r46
+166U14*New_Line 12|18s87 21s4 21s14 26s87 29s4 29s14 34s87 37s4 37s14
+242U14*Put 12|16s4 17s4 18s4 20s4 24s4 25s4 26s4 28s4 32s4 33s4 34s4 36s4
+263U14*Put_Line 12|15s4 23s4 31s4
+X 8 a-tiflio.ads
+68U14*Put 12|18s47[3|20] 26s47[3|20] 34s47[3|20]
+X 12 probar_rectas.adb
+5U11*Probar_Rectas 5b11 39l5 39t18
+6r4 P1{13|3R9} 9m23 16r43 18r68 19r28 33r43 34r72 35r32
+6r8 P2{13|3R9} 10m23 17r43 18r72 19r32
+6r12 P3{13|3R9} 11m23 24r43 26r68 27r28
+6r16 P4{13|3R9} 12m23 25r43 26r72 27r32
+6r20 P5{13|3R9} 13m23 32r43 34r68 35r28
+7r4 R1{14|4R9} 19m4 20r65
+7r8 R2{14|4R9} 27m4 28r65
+7r12 R3{14|4R9} 35m4 36r65
+X 13 puntos.ads
+2K9*Puntos 12|3w6 6r24 9r4 10r4 11r4 12r4 13r4 16r21 17r21 18r51 24r21 25r21
+. 26r51 32r21 33r21 34r51 13|25e11
+3R9*Punto 12|6r31 13|24e14
+5U14*Crear_Punto 12|9s11 10s11 11s11 12s11 13s11
+8U14*Escribir_Punto 12|16s28 17s28 24s28 25s28 32s28 33s28
+12V13*Distancia{float} 12|18s58 26s58 34s58
+X 14 rectas.ads
+3K9*Rectas 12|3w14 7r16 19r9 20r43 27r9 28r43 35r9 36r43 14|27e11
+4R9*Recta 12|7r23 14|26e14
+9U14*Escribir_Recta 12|20s50 28s50 36s50
+13V13*Crear_Recta{4R9} 12|19s16 27s16 35s16
+

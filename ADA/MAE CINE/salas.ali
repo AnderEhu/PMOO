@@ -1,0 +1,120 @@
+V "GNAT Lib v7"
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U salas%b		salas.adb		72cd50d0 NE OO PK KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U salas%s		salas.ads		af5c17d2 EE NE OO PK KU
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-inteio.ads		20170111094543 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170111094541 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D salas.ads		20180504150800 af5c17d2 salas%s
+D salas.adb		20180504141647 13b73b72 salas%b
+D system.ads		20170526112901 4635ec04 system%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170120101836 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r5 3r6 4r5
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 13|3w10 4r9
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 2r9
+166U14*New_Line 13|73s22 77s22 92s7 155s10 161s3
+242U14*Put 13|75s22 75s37 75s57 76s22 76s46 149s16 151s16
+263U14*Put_Line 13|55s6 91s7 159s5
+X 8 a-tiinio.ads
+66U14*Put 13|75s76[3|18] 76s37[3|18] 76s63[3|18]
+X 12 salas.ads
+1K9*Salas 43r42 48E9 59l5 59e10 13|5b14 99r42 199l5 199t10
+3R9*Sala 11r31 14r21 18r21 22r14 26r21 30r38 34r21 38r21 41r33 41r45 43r48
+. 49c9 57e17 13|11r31 21r21 30r21 37r38 44r21 99r48 139r21 165r21 174r14
+. 183r33 183r45
+4i4*Max_filas{positive} 48r36
+5i4*Max_col{positive} 48r52
+7U14*Crear_Sala 8>10 9>10 10>10 11<10 13|7b14 18l8 18t18
+8a10 Nombre_Sala{string} 13|8b10 14r22
+9i10 N_Filas{positive} 13|9b10 15r18 17r33
+10i10 N_Locs_Fila{positive} 13|10b10 16r22 17r21
+11r10 S{3R9} 13|11b10 13m7 14m7 15m7 16m7 17m7
+13V13*Nombre_Sala{string} 14>10 13|20b13 26l8 26t19
+14r10 S{3R9} 13|21b10 25r14
+17V13*Plazas_Libres{integer} 18>10 13|143s6 173b13 181l8 181t21
+18r10 S{3R9} 13|174b10 179r14
+21V13*Aforo{integer} 22>10 13|164b13 171l8 171t13
+22r10 S{3R9} 13|165b10 170r14 170r24
+25V13*La_Pelicula{string} 26>10 13|29b13 34l8 34t19
+26r10 S{3R9} 13|30b10 33r14
+29U14*Modificar_Pelicula 30=10 31>10 13|36b14 41l8 41t26
+30r10 S{3R9} 13|37b10 40m7
+31a10 Identificador_Sala{string} 13|38b10 40r29
+33U14*Vender_Localidades_Contiguas 34=10 35>10 13|43b14 96l8 96t36
+34r10 S{3R9} 13|44b10 50r28 59r19 61r20 65r26 72m22 75r41 79m19 79r33
+35i10 N{integer} 13|45b10 59r33 63r23 69r26 79r46
+37U14*Mostrar_Sala 38>10 13|138b14 162l8 162t20
+38r10 S{3R9} 13|139b10 143r20 143r25 143r35 144r27 146r22 148r16
+41U14*Copiar_sala 41<26 41>39 13|183b14 197l9 197t20
+41r26 v{3R9} 13|183b26 187m9 188m9 189m9 190m9 191m9 192r21 193r25 194m17
+41r39 e{3R9} 13|183b39 187r26 188r33 189r25 190r22 191r26 194r34
+43V13*hay_localidades_contiguas{boolean} 43>39 43>53 13|99b13 136l8 136t33
+43r39 S{3R9} 13|99b39 104r28 112r19 114r20 118r26
+43i53 N{integer} 13|99b53 112r33 116r23 122r26
+48A9 Matriz_Sala(boolean)<integer><integer> 56r31
+51a10*Nombre_Sala{string} 13|14m9 25r16 75r43 187m11 187r28
+52a10*Identificador_Sala{string} 13|33r16 40m9 188m11 188r35
+53i10*Loc_Libres{natural} 13|17m9 79m21 79r35 179r16 189m11 189r27
+54i10*N_Filas{positive} 13|15m9 50r30 104r30 143r27 144r29 170r16 190m11
+. 190r24 192r23
+55i10*N_Locs_Fila{positive} 13|16m9 59r21 112r21 143r37 146r24 170r26 191m11
+. 191r28 193r27
+56a10*M_Sala{48A9} 13|13m9 61r22 65r28 72m24 114r22 118r28 148r18 194m19
+. 194r36
+X 13 salas.adb
+47i7 Cont{integer} 60m13 66m22 66r28 69r19
+48i7 Tmp{integer} 63m16 64r28 71r31
+49b7 eliminado{boolean} 56m6 57r30 59r50 80m19
+50i7 I{integer} 57r13 61r29 65r35 72r31 76r41 87m10 87r13
+51i7 j{integer} 58m10 59r16 61r31 63r21 64r25 71r28 84m13 84r16
+52i7 cont_entradas{integer} 74m22 74r39 75r80
+64i20 K{integer} 65r37
+71i23 P{integer} 72r33 76r67
+102i5 Cont{integer} 113m13 119m22 119r28 122r19
+103i7 Tmp{integer} 116m16 117r28
+104i7 I{integer} 110r13 114r29 118r35 130m10 130r13
+105i7 j{integer} 111m10 112r16 114r31 116r21 117r25 127m13 127r16
+106i7 cont_entradas{integer}
+117i20 K{integer} 118r37
+144i11 I{integer} 148r25
+146i14 J{integer} 148r27
+192i13 i{integer} 194r26 194r43
+193i17 j{integer} 194r28 194r45
+

@@ -1,0 +1,74 @@
+V "GNAT Lib v7"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U probar_salas%b	probar_salas.adb	af08f7ac NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W salas%s		salas.adb		salas.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D probar_salas.adb	20180429185504 383915aa probar_salas%b
+D salas.ads		20180504144616 af5c17d2 salas%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-conca2.ads		20170111094541 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20170111094543 0b705ca5 system.concat_3%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-imgint.ads		20170111094541 02dbe0c2 system.img_int%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170120101836 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 2r9
+263U14*Put_Line 10|9s4 10s4 12s4 28s4 35s4 41s4
+X 10 probar_salas.adb
+5U11*Probar_Salas 5b11 45l5 45t17
+6r4 S{11|3R9} 8m33 9r59 10r57 11m23 11r23 12r54 13r17 14m33 14r33 15m33 15r33
+. 16m33 16r33 17m33 17r33 18m33 18r33 19m33 19r33 20m33 20r33 21m33 21r33
+. 22m33 22r33 23m33 23r33 24m33 24r33 25m33 25r33 26m33 26r33 27m33 27r33
+. 28r57 29r17 30m33 30r33 31m33 31r33 32m33 32r33 33m33 33r33 34m33 34r33
+. 35r57 36r17 37m33 37r33 38m33 38r33 39m33 39r33 40m33 40r33 41r57 42r17
+. 43m33 43r33 44r18
+X 11 salas.ads
+1K9*Salas 10|3w6 3r17 11|59e10
+3R9*Sala 10|6r7 11|57e17
+7U14*Crear_Sala 10|8s4
+17V13*Plazas_Libres{integer} 10|10s43 28s43 35s43 41s43
+21V13*Aforo{integer} 10|9s53
+25V13*La_Pelicula{string} 10|12s42
+29U14*Modificar_Pelicula 10|11s4
+33U14*Vender_Localidades_Contiguas 10|14s4 15s4 16s4 17s4 18s4 19s4 20s4
+. 21s4 22s4 23s4 24s4 25s4 26s4 27s4 30s4 31s4 32s4 33s4 34s4 37s4 38s4 39s4
+. 40s4 43s4
+37U14*Mostrar_Sala 10|13s4 29s4 36s4 42s4 44s5
+

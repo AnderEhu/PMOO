@@ -1,0 +1,98 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U probar_listas%b	probar_listas.adb	a999371e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W crear_sublistaed_primos%s  crear_sublistaed_primos.ads  crear_sublistaed_primos.ali
+W es_primo%b		es_primo.adb		es_primo.ali
+W listased%s		listased.ads		listased.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-inteio.ads		20170111094543 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170111094541 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D crear_sublistaed_primos.ads  20180508141243 9f5ac908 crear_sublistaed_primos%s
+D es_primo.adb		20180518213009 4c340f23 es_primo%b
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D listas.ads		20180508135317 9fdb2e72 listas%s
+D listased.ads		20180508141052 3da00337 listased%s
+D mayor_que.adb		20180518213056 bb483464 mayor_que%b
+D probar_listas.adb	20180518213311 89718e72 probar_listas%b
+D suma_divisores_propio.adb  20180505144436 06d3405e suma_divisores_propio%b
+D system.ads		20170526112901 4635ec04 system%s
+D s-conca3.ads		20170111094543 0b705ca5 system.concat_3%s
+D s-conca5.ads		20170111094541 875e432e system.concat_5%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r27 2r5 2r26
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 17|1w10 2r9
+X 7 a-textio.ads
+49K13*Text_IO 471e16 17|1w31 2r30
+166U14*New_Line 17|19s7 19s17 33s10 64s4 64s14 92s4 92s14
+242U14*Put 17|12s7 16s10 31s10 49s4 56s10 58s10 60s10 68s4 88s7
+263U14*Put_Line 17|11s7 26s7 83s7 86s7
+X 8 a-tiinio.ads
+66U14*Put 17|15s10[3|18] 30s10[3|18] 32s10[3|18] 55s10[3|18] 59s10[3|18]
+X 10 crear_sublistaed_primos.ads
+3U11*crear_sublistaed_Primos[14|40] 17|3w6 63s4
+X 11 es_primo.adb
+5V10*es_primo{boolean} 17|3w39 76s9
+X 14 listas.ads
+6P9*Lista 17|7r52[15|3] 22r54[15|3] 22r94[15|3] 41r21[15|3]
+8U14*Crear_Vacia 17|50s13[15|3] 73s13[15|3]
+12U17*Colocar 17|53s16[15|3] 77s16[15|3]
+19U14*Obtener_Primero 17|14s19[15|3] 28s19[15|3] 29s19[15|3]
+26V13*Esta{boolean} 17|54s19[15|3]
+32U14*Borrar_Primero 17|17s19[15|3] 34s19[15|3] 35s19[15|3]
+47V13*Es_Vacia{boolean} 17|13s26[15|3] 27s26[15|3]
+53V13*Igual{boolean} 17|82s16[15|3]
+X 15 listased.ads
+3K9*listased[14|4] 17|3w30 7r43 13r17 14r10 17r10 22r45 22r85 27r17 28r10
+. 29r10 34r10 35r10 41r12 50r4 53r7 54r10 73r4 77r7 82r7
+X 17 probar_listas.adb
+6U11*Probar_listas 6b11 98l5 98t18
+7U14 Escribir_Contenido 7b14 7=33 7>59 20l8 20t26 69s4 89s7
+7p33 L{14|6P9[15|3]} 13r35 14r35 17m34
+7a59 Lista{string} 11r44
+8i7 N{integer} 14m38 15r14
+22U14 Escribir_Contenidos 22b14 22=34 22>61 22=74 22>101 37l8 37t27 84s7
+22p34 L1{14|6P9[15|3]} 27r35 28r35 34m34
+22a61 L1s{string} 26r53
+22p74 L2{14|6P9[15|3]} 29r35 35m34
+22a101 L2s{string} 26r63
+23i7 N1{integer} 28m39 30r14
+23i11 N2{integer} 29m39 32r14
+39p4 L1{14|6P9[15|3]} 50m25 50r25 53m24 53r24 54r24 63r28 69m23 69r23
+40p7 L1p{14|6P9[15|3]} 63m32 63r32 82r27 84m27 84r27 89m26 89r26
+41p7 Lp1{14|6P9[15|3]} 73m25 73r25 77m24 77r24 82r22 84m39 84r39
+52i8 I{integer} 53r28 54r28 55r14 59r14
+75i8 N{integer} 76r18 77r29
+

@@ -1,0 +1,102 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U probar_lista_puntos%b	probar_lista_puntos.adb	cf42ef47 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W lista_puntos%s	lista_puntos.adb	lista_puntos.ali
+W listas_puntosed%s	listas_puntosed.ads	listas_puntosed.ali
+W puntos%s		puntos.adb		puntos.ali
+W rectas%s		rectas.adb		rectas.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-flteio.ads		20170111094543 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170111094543 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D lista_puntos.ads	20180517084040 154f16e8 lista_puntos%s
+D listas.ads		20180518174110 124e4912 listas%s
+D listas_puntosed.ads	20180516181535 be80c42c listas_puntosed%s
+D mayor_que.adb		20180516095715 1c65b304 mayor_que%b
+D probar_lista_puntos.adb  20180517085023 ffffdc71 probar_lista_puntos%b
+D puntos.ads		20180320160721 e2accfd3 puntos%s
+D rectas.ads		20180320160655 a0399c55 rectas%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-conca3.ads		20170111094543 0b705ca5 system.concat_3%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-imgint.ads		20170111094541 02dbe0c2 system.img_int%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 16|5r6 5r23 6r6 6r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 16|6w10 6r33
+X 7 a-textio.ads
+49K13*Text_IO 471e16 16|5w10 5r27
+166U14*New_Line 16|45s3 48s3 50s3 52s3 55s3 55s13
+242U14*Put 16|47s3 49s3 51s3 53s3
+263U14*Put_Line 16|46s3
+X 8 a-tiflio.ads
+68U14*Put 16|51s46[3|20]
+X 12 lista_puntos.ads
+4K9*lista_puntos 20e17 16|2w6 24r1 25r1 26r1 27r1 28r1 29r1 30r1 31r1 32r1
+. 33r1 34r1 35r1 41r11 42r3 43r11 44r3
+6U13*crear_lista_vacia 16|24s14
+8U13*poner_punto 16|25s14 26s14 27s14 28s14 29s14 30s14 31s14 32s14 33s14
+. 34s14
+10U13*Calculo_AMC 16|35s14
+12V12*Obtener_Primero{17|3R9} 16|41s24 43s24
+15U13*borrar_primero 16|42s16 44s16
+X 14 listas_puntosed.ads
+5K9*listas_puntosED[13|4] 16|4w6
+X 16 probar_lista_puntos.adb
+7U11*probar_lista_puntos 7b11 63l5 63t24
+9r3 p1{17|3R9} 14m20 25r26
+9r6 p2{17|3R9} 15m20 26r26
+9r9 p3{17|3R9} 16m20 27r26
+9r12 p4{17|3R9} 17m20 28r26
+9r15 p5{17|3R9} 18m20 29r26
+9r18 p6{17|3R9} 19m20 30r26
+9r21 p7{17|3R9} 20m20 31r26
+9r24 p8{17|3R9} 21m20 32r26
+9r27 p9{17|3R9} 22m20 33r26
+9r30 p10{17|3R9} 23m20 34r26
+9r34 p1_aux{17|3R9} 41m3 47r61 51r67 54r44
+9r41 p2_aux{17|3R9} 43m3 49r63 51r75 54r51
+10i3 i{integer} 40r7 47r29 49r29 56m3 56r6
+X 17 puntos.ads
+2K9*Puntos 16|1w6 9r49 14r1 15r1 16r1 17r1 18r1 19r1 20r1 21r1 22r1 23r1
+. 47r39 49r41 51r50 17|25e11
+3R9*Punto 16|9r56 17|24e14
+5U14*Crear_Punto 16|14s8 15s8 16s8 17s8 18s8 19s8 20s8 21s8 22s8 23s8
+8U14*Escribir_Punto 16|47s46 49s48
+12V13*Distancia{float} 16|51s57
+X 18 rectas.ads
+3K9*Rectas 16|3w6 54r3 54r25 18|27e11
+9U14*Escribir_Recta 16|54s10
+13V13*Crear_Recta{4R9} 16|54s32
+

@@ -1,0 +1,142 @@
+V "GNAT Lib v7"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U nube_puntos%b		nube_puntos.adb		7dda5017 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W distancia_menor%b	distancia_menor.adb	distancia_menor.ali
+W lista_puntos%s	lista_puntos.adb	lista_puntos.ali
+W listas%s		listas.adb		listas.ali
+W listas_puntosed%s	listas_puntosed.ads	listas_puntosed.ali
+W mayor_que%b		mayor_que.adb		mayor_que.ali
+W puntos%s		puntos.adb		puntos.ali
+W rectas%s		rectas.adb		rectas.ali
+
+U nube_puntos%s		nube_puntos.ads		3e7e2244 EE NE OO PK IL
+W listas_puntosed%s	listas_puntosed.ads	listas_puntosed.ali
+W puntos%s		puntos.adb		puntos.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-flteio.ads		20170111094543 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20170111094543 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170111094543 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20170111094541 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D distancia_menor.adb	20180518173043 416ccdef distancia_menor%b
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D lista_puntos.ads	20180517084040 154f16e8 lista_puntos%s
+D listas.ads		20180518174110 124e4912 listas%s
+D listas.adb		20180525092918 e7c0e408 listas%b
+D listas_puntosed.ads	20180516181535 be80c42c listas_puntosed%s
+D listas_puntosed.ads	20180516181535 be80c42c listas_puntosed%s
+D mayor_que.adb		20180516095715 1c65b304 mayor_que%b
+D nube_puntos.ads	20180518204423 625229bb nube_puntos%s
+D nube_puntos.adb	20180525092809 60727d63 nube_puntos%b
+D puntos.ads		20180320160721 e2accfd3 puntos%s
+D rectas.ads		20180518184807 a0399c55 rectas%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 22|8r6 8r19 9r5 9r18
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 22|8w23 9r22
+X 8 a-textio.ads
+49K13*Text_IO 471e16 22|8w10 9r9
+X 12 distancia_menor.adb
+6V10*distancia_menor{boolean} 22|7w6 72r79
+X 15 lista_puntos.ads
+4K9*lista_puntos 20e17 22|6w6
+X 16 listas.ads
+4k9*Listas 80e11 22|3w6
+6P9*Lista 21|27r60[19|5] 22|25r30[19|5]
+8U14*Crear_Vacia 22|18s23[19|5]
+12U17*Colocar 22|67s23[19|5]
+19U14*Obtener_Primero 22|30s23[19|5] 49s23[19|5]
+32U14*Borrar_Primero 22|35s23[19|5] 55s23[19|5]
+40u14*Crear_Sublista 22|72r62[19|5]
+49V13*Es_Vacia{boolean} 22|61s30[19|5]
+62U14*Copiar 22|28s23[19|5]
+X 19 listas_puntosed.ads
+5K9*listas_puntosED[16|4] 21|2w6 27r44 22|5w6 18r7 25r14 28r7 30r7 35r7 49r7
+. 55r7 61r14 67r7 72r46
+X 20 mayor_que.adb
+5V10*mayor_que{boolean} 22|4w6
+X 21 nube_puntos.ads
+4K9*nube_puntos 27E10 38l5 38e16 22|11b15 89l5 89t16
+6R8*nubes_puntos 8r41 10r35 12r32 14r35 16r38 18r29 20r40 29c10 32e15 22|13r43
+. 21r34 46r36 53r40 59r32 64r38 71r41
+8U13*crear_lista_vacia 8=31 22|13b15 19l9 19t26
+8r31 N{6R8} 22|13b33 17m7 17r15 18m35 18r35 18r49
+10U13*poner_punto 10=25 10>48 22|64b15 69l9 69t20
+10r25 N{6R8} 22|64b28 67m31 67r31 67r45
+10r48 P{23|3R9} 22|64b52 67r53
+12U13*Calculo_AMC 12>25 22|21b15 44l9 44t20
+12r25 N{6R8} 22|21b27 28r36 28r50
+14V12*Obtener_Primero{23|3R9} 14>28 22|46b14 51l9 51t24
+14r28 N{6R8} 22|46b30 49r39 49r53
+16U13*borrar_primero 16=28 22|53b15 57l9 57t23
+16r28 N{6R8} 22|53b30 55m38 55r38 55r52
+18V12*Esta_vacia{boolean} 18>23 22|59b14 62l9 62t19
+18r23 N{6R8} 22|59b25 61r39 61r53
+20U13*Obtener_Sublista 20=30 20>54 20>71 20>81 22|71b13 80l7 80t23
+20r30 N{6R8} 22|71b30 77r29 77r43 77m55 77r55 77r69
+20r54 p{23|3R9} 22|71b55 77r51
+20f71 D{float} 22|71b72 77r53
+20i81 C{integer} 22|71b82 72r77
+27A10 L_nubes_puntos(16|6P9[19|5])<integer> 30r20
+30a7*nube_puntos{27A10} 22|18m37 28r38 49r41 55m40 61r41 67m33 77r31 77m57
+31i7*cont{integer} 22|17m9 17r17 18r51 28r52 49r55 55r54 61r55 67r47 77r45
+. 77r71
+X 22 nube_puntos.adb
+22f7 sX{float} 31m7 31r13 39r21 39r39 40r19 40r38
+22f10 sY{float} 32m7 32r13 39r24 40r16
+22f13 sXX{float} 33m7 33r14 39r34 40r12 40r33
+22f17 sXY{float} 34m7 34r14 39r17 40r22
+23f7 rM{float} 39m7 41r28
+23f10 rN{float} 40m7 41r31
+24r7 r{24|4R9} 41m26 43r29
+25p7 L_aux{16|6P9[19|5]} 28m30 28r30 30r39 35m38 35r38
+26r7 L_aux_primero{23|3R9} 30m45 31r31 32r31 33r33 33r63 34r33 34r63
+29i9 i{integer}
+47r7 p{23|3R9} 49m61 50r14
+72U15 crear_sublistaed_puntos[16|40] 77s5
+X 23 puntos.ads
+2K9*Puntos 21|1w6 10r51 14r56 20r57 22|1w6 26r22 31r18 32r18 33r20 33r50
+. 34r20 34r50 46r57 47r10 64r55 71r58 23|25e11
+3R9*Punto 21|10r58 14r63 20r64 22|26r29 46r64 47r17 64r62 71r65 23|24e14
+15V13*Get_X{float} 22|31s25 33s27 33s57 34s27
+18V13*Get_Y{float} 22|32s25 34s57
+X 24 rectas.ads
+3K9*Rectas 22|2w6 24r10 41r7 43r7 24|27e11
+4R9*Recta 22|24r17 24|26e14
+6U14*Crear_Recta 22|41s14
+9U14*Escribir_Recta 22|43s14
+

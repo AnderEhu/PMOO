@@ -1,0 +1,57 @@
+V "GNAT Lib v7"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV SPARK_05
+
+U crear_sublistaed_10puntos%b  crear_sublistaed_10puntos.ads  648dd48f NE OO SU IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+W listased%s		listased.ads		listased.ali
+
+U crear_sublistaed_10puntos%s  crear_sublistaed_10puntos.ads  8e7dc3d7 NE OO SU IL
+W listased%s		listased.ads		listased.ali
+
+D ada.ads		20170111094541 76789da1 ada%s
+D a-except.ads		20170111094543 291912d5 ada.exceptions%s
+D a-flteio.ads		20170111094543 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20170111094543 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170111094543 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170111094541 119b8fb3 ada.streams%s
+D a-tags.ads		20170111094541 01f5e3ef ada.tags%s
+D a-textio.ads		20170111094541 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170111094543 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20170111094541 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170111094543 31484697 ada.unchecked_conversion%s
+D crear_sublistaed_10puntos.ads  20180510162443 648dd48f crear_sublistaed_10puntos%s
+D crear_sublistaed_10puntos.ads  20180510162443 648dd48f crear_sublistaed_10puntos%b
+D interfac.ads		20170111094543 5ab55268 interfaces%s
+D i-cstrea.ads		20170111094541 e53d8b8e interfaces.c_streams%s
+D listas.ads		20180510164640 862bef88 listas%s
+D listas.adb		20180510165107 bb8f7291 listas%b
+D listased.ads		20180510165451 eaf01758 listased%s
+D listased.ads		20180510165451 eaf01758 listased%s
+D mayor_que.adb		20180510171615 afe41167 mayor_que%b
+D puntos.ads		20180320160721 e2accfd3 puntos%s
+D system.ads		20170526112901 4635ec04 system%s
+D s-crtl.ads		20170111094541 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170111094543 54135002 system.exception_table%s
+D s-ficobl.ads		20170111094543 078245e4 system.file_control_block%s
+D s-parame.ads		20170111094543 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170111094543 14e1eb6c system.soft_links%s
+D s-stache.ads		20170111094543 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170111094543 09bd3940 system.standard_library%s
+D s-stoele.ads		20170111094543 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170111094543 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170111094543 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170111094543 1b7d22d2 system.wch_con%s
+X 13 crear_sublistaed_10puntos.ads
+3U12*crear_sublistaed_10puntos[16|39]
+X 16 listas.ads
+38i7 cuantos{integer} 13|3r69[18|4]
+39u14*Crear_Sublista 13|3r54[18|4]
+X 18 listased.ads
+4K9*listased[16|4] 13|2w6 3r45
+
